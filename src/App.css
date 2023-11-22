@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,43 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* Navbar.css */
+/* .navbar-links {
+  display: flex;
+  list-style: none;
 }
+
+.navbar-links li {
+  padding: 0 20px;
+}
+
+.navbar-menu {
+  display: none;
+} */
+
+/* Small screens */
+/* @media (max-width: 600px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: block;
+  }
+} */
+
+/* Home */
+
+
+/* PhotoGallery */
+
+/* PupPage */
+
+/* AdoptProcess */
+
+/* COntact */
+
+/* PupCare */

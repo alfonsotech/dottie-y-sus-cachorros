@@ -1,0 +1,63 @@
+/* Navbar.css */
+
+.desktop-menu {
+    display: flex;
+}
+
+.mobile-menu-button {
+    display: none;
+}
+
+/* Navbar.css - Add this to your existing styles */
+
+/* Menu Styles */
+.menu-paper {
+    background-color: #2196f3;
+    /* Example blue to match the AppBar */
+    color: white;
+    /* Text color */
+}
+
+.menu-item {
+    font-size: 16px;
+    /* Match your design's font size */
+    padding: 10px 20px;
+    /* Spacing inside each menu item */
+}
+
+/* Override MUI Menu styles */
+.MuiMenu-paper {
+    border-radius: 4px;
+    /* Rounded corners for the dropdown */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    /* Add shadow for depth */
+}
+
+/* Link Styles */
+.menu-link {
+    color: white;
+    /* Match text color to the menu item color */
+    text-decoration: none;
+    /* Remove underline from links */
+    display: block;
+    /* Makes the entire area clickable */
+    width: 100%;
+    /* Ensure link utilizes full width for click area */
+}
+
+/* This ensures the menu items have space between text and edge */
+.MuiMenuItem-root {
+    justify-content: center;
+    /* Center the menu items if desired */
+}
+
+/* Hide desktop menu and show hamburger icon on smaller screens */
+@media screen and (max-width: 600px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu-button {
+        display: block;
+    }
+}
