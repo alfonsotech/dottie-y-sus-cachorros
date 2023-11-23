@@ -18,10 +18,10 @@ function App() {
 
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path="/dottie-y-sus-cachorros" element={<Home />} />
         <Route path="/gallery" element={<PhotoGallery />} />
         <Route path="/mama" element={<Mama />} />
         <Route path="/adopt" element={<Adopt />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/care" element={<PupCare />} />
       </Routes>
       <Footer />

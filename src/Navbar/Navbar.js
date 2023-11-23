@@ -76,7 +76,7 @@ const Navbar = () => {
               <Link to="/mama" className="menu-link">
                 <Button color="inherit">La Mama</Button>
               </Link>
-              <Link to="/cachorros" className="menu-link">
+              <Link to="/gallery" className="menu-link">
                 <Button color="inherit">Los Cachorros</Button>
               </Link>
               <Link to="/adopt" className="menu-link">
