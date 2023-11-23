@@ -9,7 +9,7 @@ const Mama = () => {
 
       <h1>
         <img
-          src="./images/logo-transparent.png"
+          src={process.env.PUBLIC_URL + "/images/logo-transparent.png"}
           alt="Dottie"
           className="logo-image"
         />
@@ -26,7 +26,7 @@ const Mama = () => {
 
       <figure className="centered-figure">
         <img
-          src="./images/boliche.jpg"
+          src={process.env.PUBLIC_URL + "/images/boliche.jpg"}
           alt="A very pregnant Dottie"
           className="centered-figure-img"
         />
@@ -44,7 +44,7 @@ const Mama = () => {
       <figure className="centered-figure">
         <img
           className="centered-figure-img vertical"
-          src="./images/labor.jpg"
+          src={process.env.PUBLIC_URL + "/images/labor.jpg"}
           alt="En labor"
         />
         <figcaption className="figure-caption">En labor</figcaption>
@@ -62,7 +62,7 @@ const Mama = () => {
       <figure className="centered-figure">
         <img
           className="centered-figure-img vertical"
-          src="./images/week1.jpg"
+          src={process.env.PUBLIC_URL + "/images/week1.jpg"}
           alt="puppies feeding on week1"
         />
         <figcaption className="figure-caption">
