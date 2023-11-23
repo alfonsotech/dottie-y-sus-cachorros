@@ -2,7 +2,7 @@
   "name": "dotties-litter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alfonsotech.github.io/dottie-y-sus-cachorros/",
+  "homepage": "https://alfonsotech.github.io/dottie-y-sus-cachorros",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
