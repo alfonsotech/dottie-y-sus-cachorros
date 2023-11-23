@@ -5,12 +5,12 @@ const Adopt = () => {
   return (
     <div>
       <p>
-        Gracias por considerar la adopción de uno de nuestros cachorros. Si
-        estás interesado en darle un hogar amoroso y responsable a uno de ellos,
-        te invitamos a leer cuidadosamente la información en esta página y luego
-        completar el formulario de adopción en línea. Una vez recibamos tu
-        formulario, nos pondremos en contacto contigo lo antes posible para
-        continuar con el proceso.{" "}
+        Gracias por considerar la adopción sin costo de uno de nuestros
+        cachorros. Si estás interesado en darle un hogar amoroso y responsable a
+        uno de ellos, te invitamos a leer cuidadosamente la información en esta
+        página y luego completar el formulario de adopción en línea. Una vez
+        recibamos tu formulario, nos pondremos en contacto contigo lo antes
+        posible para continuar con el proceso.{" "}
       </p>
       <div className="adoptionForm">
         <form
@@ -89,8 +89,8 @@ const Adopt = () => {
               required
             />
             <label htmlFor="agree_neuter">
-              ¿Está de acuerdo con una visita de seguimiento en el hogar después
-              de 1 mes y 6 meses?
+              Acepto una visita de seguimiento en el hogar después de 1 mes y 6
+              meses.
             </label>
           </div>
 
