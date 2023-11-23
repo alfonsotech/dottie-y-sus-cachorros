@@ -64,7 +64,7 @@ const Navbar = () => {
                   <Link to="/gallery">Los Cachorros</Link>
                 </MenuItem>
                 <MenuItem onClick={handleMenuClose}>
-                  <Link to="/adoptar">Como Adoptar</Link>
+                  <Link to="/adopt">Como Adoptar</Link>
                 </MenuItem>
               </Menu>
             </>
