@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+
+
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*  */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  /* background-color: #f8f8f8; */
+  background-color:rgba(228, 187, 148, .4);
+    /* Light grey background */
+    border-radius: 8px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    
+    text-align: center;
+    margin: 1rem;
+    padding: 1em;
+}
+
+p {
+  font-size: 1em;
+  /* This is a comfortable reading size for most people */
+  line-height: 1.6;
+  /* This increases the space between lines */
+  color: #333;
+  /* Darker text for better legibility */
+  margin-top: 20px;
+  max-width: 600px;
+  /* Set a maximum width for the paragraph for better readability */
+  margin-left: auto;
+  /* These two margin settings center the paragraph */
+  margin-right: auto;
+  padding: 20px;
+}
+
+.vertical {
+  width: 500px;
+  border: 1px solid rgba(0, 0, 0, .3);
+}
+
+.horizontal {
+  height:500px;
+  border: 1px solid rgba(0,0,0,.3);
+}
+
+figcaption {
+  margin-top: 0;
+  margin-bottom: 10px;
+  /* Adjust this value as needed to bring the caption closer to the image */
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+
+/* Reset.css or at the top of your main CSS file */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  /* overflow-x: hidden; */
+  /* Prevents horizontal scroll */
+}

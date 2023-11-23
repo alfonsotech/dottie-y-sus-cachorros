@@ -1,0 +1,52 @@
+/* Footer.css */
+
+.footer {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-input,
+.footer-textarea {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.footer-textarea {
+    min-height: 100px;
+}
+
+.footer-button {
+    padding: 10px 20px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer-contact {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
