@@ -6,8 +6,8 @@ import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
 import PhotoGallery from "./PhotoGallery";
 import PupPage from "./PupPage";
-import AdoptProcess from "./AdoptProcess";
-import Contact from "./Contact";
+import Adopt from "./Adopt/Adopt";
+// import Contact from "./Contact";
 import Footer from "./Footer/Footer";
 import PupCare from "./PupCare";
 import Mama from "./Mama/Mama";
@@ -22,7 +22,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/gallery" element={<PhotoGallery />} />
         <Route path="/mama" element={<Mama />} />
-        <Route path="/adopt" element={<AdoptProcess />} />
+        <Route path="/adopt" element={<Adopt />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/care" element={<PupCare />} />
       </Routes>
