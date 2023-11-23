@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/dottie-y-sus-cachorros/static/css/main.09869a59.css",
+    "main.js": "/dottie-y-sus-cachorros/static/js/main.e2a0deea.js",
+    "static/js/787.01d2f696.chunk.js": "/dottie-y-sus-cachorros/static/js/787.01d2f696.chunk.js",
+    "static/media/slick.svg": "/dottie-y-sus-cachorros/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/dottie-y-sus-cachorros/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/dottie-y-sus-cachorros/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/dottie-y-sus-cachorros/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/dottie-y-sus-cachorros/index.html",
+    "main.09869a59.css.map": "/dottie-y-sus-cachorros/static/css/main.09869a59.css.map",
+    "main.e2a0deea.js.map": "/dottie-y-sus-cachorros/static/js/main.e2a0deea.js.map",
+    "787.01d2f696.chunk.js.map": "/dottie-y-sus-cachorros/static/js/787.01d2f696.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09869a59.css",
+    "static/js/main.e2a0deea.js"
+  ]
+}
