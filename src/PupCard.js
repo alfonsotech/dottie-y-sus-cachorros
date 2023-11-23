@@ -28,7 +28,7 @@ const PuppyCard = ({ puppy }) => {
           <div key={index}>
             <img
               className="horizontal"
-              src={image}
+              src={process.env.PUBLIC_URL + image}
               alt={`Puppy ${puppy.name} ${index}`}
               height="140"
               style={{ display: "block" }}

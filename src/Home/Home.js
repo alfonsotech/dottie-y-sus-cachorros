@@ -14,7 +14,7 @@ const Home = () => {
       <div className="home-section">
         <div className="image-container">
           <img
-            src="./images/logo-transparent.png"
+            src={process.env.PUBLIC_URL + "./images/logo-transparent.png"}
             alt="Dottie"
             className="home-image"
           />
@@ -33,7 +33,7 @@ const Home = () => {
       <figure className="figure-center">
         <img
           className="figure-image horizontal"
-          src="./images/birthing.jpg"
+          src={process.env.PUBLIC_URL + "./images/birthing.jpg"}
           alt="cleaning the pups"
         />
         <figcaption>Cachorros en la primera semana</figcaption>
@@ -49,7 +49,7 @@ const Home = () => {
       <figure className="figure-center">
         <img
           className="figure-image horizontal"
-          src="./images/pups1.jpg"
+          src={process.env.PUBLIC_URL + "./images/pups1.jpg"}
           alt="A very pregnant Dottie"
         />
         <figcaption>Los cachorros son jugetones!</figcaption>
