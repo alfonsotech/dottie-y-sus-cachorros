@@ -157,7 +157,6 @@ const PhotoGallery = () => {
             style={{ width: "100%", maxWidth: "345px", margin: "0 auto" }}
           >
             {" "}
-            {/* This wrapper centers the card */}
             <PupCard key={puppy.id} puppy={puppy} />
           </div>
         ))}
