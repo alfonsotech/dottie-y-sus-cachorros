@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 const puppies = [
   {
     id: 1,
-    name: "Bella",
+    name: "Bella, La Exploradora",
     images: [
       "/images/pups/pup1c.jpeg",
       "/images/pups/pup1a.jpeg",
@@ -13,11 +13,12 @@ const puppies = [
       "/images/pups/pup1d.jpeg",
       "/images/pups/pup1e.jpeg",
     ],
-    description: "Very playful and friendly.",
+    description:
+      "Bella aspira a ser la líder de la manada. Siempre está dispuesta a ser la primera en probar cosas nuevas y es toda una pequeña exploradora. Tiene un espíritu muy aventurero.",
   },
   {
     id: 2,
-    name: "Luna",
+    name: "Luna, La Curiosa",
     images: [
       "/images/pups/pup2a.jpeg",
       "/images/pups/pup2b.jpeg",
@@ -26,11 +27,12 @@ const puppies = [
       "/images/pups/pup2e.jpeg",
       "/images/pups/pup2f.jpeg",
     ],
-    description: "Shy but affectionate.",
+    description:
+      "Luna es una perra pequeña de color marrón claro y pelaje canela. Es enérgica, le encanta jugar y siempre está curiosa por su entorno.",
   },
   {
     id: 3,
-    name: "Diego",
+    name: "Diego, El Bromista",
     images: [
       "/images/pups/pup3a.jpeg",
       "/images/pups/pup3b.jpeg",
@@ -40,47 +42,53 @@ const puppies = [
       "/images/pups/pup3f.jpeg",
       "/images/pups/pup3g.jpeg",
     ],
-    description: "Loves to nap and cuddle.",
+    description:
+      "Diego es todo un amor. Siempre es el primero en venir a saludar y siempre quiere que lo recojan y lo mimen. También es muy juguetón con los otros cachorros y a menudo se le puede ver jugando mucho con su hermano Rico, el otro peludo marrón.",
   },
   {
     id: 4,
-    name: "Sophia",
+    name: "Sophia, La Sabia",
     images: [
       "/images/pups/pup4a.jpeg",
       "/images/pups/pup4b.jpeg",
       "/images/pups/pup4c.jpeg",
       "/images/pups/pup4d.jpeg",
     ],
-    description: "Active and enjoys walks.",
+    description:
+      "Sofía es otra de las perras con marcas alrededor de los ojos, pero las suyas son un poco más tenues. Es un poco reservada pero parece muy sabia, y le encanta explorar nuevas áreas con su hermana Bella.",
   },
   {
     id: 5,
-    name: "Paloma",
+    name: "Paloma, La Observadora",
     images: [
       "/images/pups/pup5a.jpeg",
       "/images/pups/pup5b.jpeg",
       "/images/pups/pup5c.jpeg",
       "/images/pups/pup5d.jpeg",
     ],
-    description: "Curious and loves to explore.",
+    description:
+      "Paloma es de un color beige claro como su mamá, es una de las perras más compactas y se ve un poco tímida, pero es que siempre está observando todo a su alrededor.",
   },
   {
     id: 6,
-    name: "Mateo",
+    name: "Mateo, El Que Retosa",
     images: ["/images/pups/pup6a.jpeg"],
-    description: "Gentle and loves kids.",
+    description:
+      "Mateo es uno de los tres perros con marcas de ojo blanco y marrón y es muy extrovertido. Siempre anda buscando con quien retosar.",
   },
   {
     id: 7,
-    name: "Rico",
+    name: "Rico, Rey De Los Jugetes",
     images: ["/images/pups/pup7a.jpeg", "/images/pups/pup7b.jpeg"],
-    description: "Calm and great with other pets.",
+    description:
+      "Rico es uno de los dos perros marrones que son muy juguetones y sociables también con las personas. Le encanta la comida y los juguetes suaves de silicona. A menudo se le puede encontrar llevando dicho juguete en la boca.",
   },
   {
     id: 8,
-    name: "Santo",
+    name: "Santo, Zenmaster",
     images: ["/images/pups/pup8a.jpg"],
-    description: "Affectionate and enjoys cuddles.",
+    description:
+      "Santo es un perro súper Zen, tiene una energía tranquila y calmante que influye positivamente en los otros perros. También, es completamente negro con cabello suave y lacio.",
   },
 ];
 
@@ -159,6 +167,33 @@ const PhotoGallery = () => {
             <PupCard key={puppy.id} puppy={puppy} />
           </div>
         ))}
+      </div>
+
+      <div style={{ display: "grid", placeItems: "center" }}>
+        <h1>Videos</h1>
+        <div style={{ paddingBottom: "20px" }}>
+          <iframe
+            width="750"
+            height="500"
+            src="https://www.youtube.com/embed/7DT1KyKvSj8?si=3WXymW0hMP_SENRm"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div style={{ paddingBottom: "20px" }}>
+          <iframe
+            width="750"
+            height="500"
+            src="https://www.youtube.com/embed/bWMj-VaVKUo?si=UQgrN7yofq6fS2hm"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h2>Más videos próximamente. Atención a este espacio! </h2>
       </div>
     </div>
   );

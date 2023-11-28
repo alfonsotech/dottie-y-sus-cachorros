@@ -8,9 +8,7 @@ const Home = () => {
       <div className="fixed-button">
         {/* The button is commented out, if you need it, just uncomment and adjust the styling */}
       </div>
-
       <h1>Dottie y sus cachorros</h1>
-
       <div className="home-section">
         <div className="image-container">
           <img
@@ -29,7 +27,6 @@ const Home = () => {
           </p>
         </div>
       </div>
-
       <figure className="figure-center">
         <img
           className="figure-image horizontal"
@@ -38,23 +35,22 @@ const Home = () => {
         />
         <figcaption>Cachorros en la primera semana</figcaption>
       </figure>
-
       <p>
         Mis cachorros y yo estamos buscando hogares amorosos y permanentes. Cada
         uno de nosotros tiene una personalidad única y mucho amor para ofrecer.
         Si estás listo para abrir tu corazón y tu hogar, ¡considera adoptarnos!
         Juntos, podemos llenar tus días de alegría y amor incondicional.
       </p>
-
       <figure className="figure-center">
         <img
           className="figure-image horizontal"
           src={process.env.PUBLIC_URL + "/images/pups1.jpg"}
           alt="A very pregnant Dottie"
         />
-        <figcaption>Los cachorros son jugetones!</figcaption>
+        <figcaption>
+          Los cachorros comienzan su tercera semana, sus ojos acaban de abrirse.
+        </figcaption>
       </figure>
-
       <p>
         Ahora, busco un hogar para siempre, tanto para mis cachorros como para
         mí. Si tienes espacio en tu corazón y en tu hogar para un perro cariñoso
@@ -62,7 +58,6 @@ const Home = () => {
         dándonos un hogar, sino también la promesa de un futuro lleno de amor y
         aventuras juntos. ¿Nos abrirías la puerta de tu hogar y de tu corazón?
       </p>
-
       <div className="button-container">
         <Link to="/mama" className="button-link">
           <button className="button">CONOCE A DOTTIE</button>
@@ -72,6 +67,12 @@ const Home = () => {
           <button className="button">CONOCE A LOS CACHORROS</button>
         </Link>
       </div>
+      <img
+        className="figure-image horizontal"
+        src={process.env.PUBLIC_URL + "/images/puppy-play3b.gif"}
+        alt="A very pregnant Dottie"
+      />
+      {/* puppy-play3.gif */}
     </div>
   );
 };

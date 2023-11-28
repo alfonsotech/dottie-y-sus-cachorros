@@ -7,10 +7,10 @@ const Adopt = () => {
       <p>
         Gracias por considerar la adopción sin costo de uno de nuestros
         cachorros. Si estás interesado en darle un hogar amoroso y responsable a
-        uno de ellos, te invitamos a leer cuidadosamente la información en esta
-        página y luego completar el formulario de adopción en línea. Una vez
-        recibamos tu formulario, nos pondremos en contacto contigo lo antes
-        posible para continuar con el proceso.{" "}
+        uno de ellos, te invitamos a completar el formulario de adopción en
+        línea. Una vez recibamos tu formulario, nos pondremos en contacto
+        contigo lo antes posible para continuar con el proceso. Los cachorros
+        estaran disponibles apartir de diciembre 15.{" "}
       </p>
       <div className="adoptionForm">
         <form
@@ -22,14 +22,14 @@ const Adopt = () => {
             type="text"
             name="puppy_name"
             id="puppy_name"
-            placeholder="Nombre del cachorro o Dottie"
+            placeholder="Dottie o Nombre del cachorro"
             className="form-input"
             required
           />
           <input
             type="text"
             name="name"
-            placeholder="Nombre completo"
+            placeholder="Su nombre completo"
             className="form-input"
             required
           />
@@ -45,28 +45,22 @@ const Adopt = () => {
             required
           />
           <input
+            type="text"
+            name="phone"
+            placeholder="WhatsApp o Teléfono"
+            className="form-input"
+          />
+          <input
             type="email"
             name="email"
             placeholder="Correo electrónico"
             className="form-input"
             required
           />
-          <input
-            type="text"
-            name="phone"
-            placeholder="Teléfono"
-            className="form-input"
-          />
-          <input
-            type="text"
-            name="whatsapp"
-            placeholder="WhatsApp"
-            className="form-input"
-          />
 
           <textarea
             name="references"
-            placeholder="Referencias (opcional)"
+            placeholder="Referencia(s) (opcional)"
             className="form-textarea"
           ></textarea>
 
@@ -89,8 +83,7 @@ const Adopt = () => {
               required
             />
             <label htmlFor="agree_neuter">
-              Acepto una visita de seguimiento en el hogar después de 1 mes y 6
-              meses.
+              Acepto una visita de seguimiento en el hogar.
             </label>
           </div>
 

@@ -103,6 +103,8 @@
         /* Change flex layout to block layout */
     }
 
+   
+
     .image-container,
     .text-container {
         flex: none;
