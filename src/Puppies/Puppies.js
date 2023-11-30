@@ -1,6 +1,7 @@
 import React from "react";
-import PupCard from "./PupCard";
+import PupCard from "../PupCard";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "./Puppies.css";
 
 const puppies = [
   {
@@ -145,7 +146,7 @@ const puppies = [
 
 // ];
 
-const PhotoGallery = () => {
+const Puppies = () => {
   return (
     <div>
       <h1>Los Cachorros</h1>
@@ -171,10 +172,9 @@ const PhotoGallery = () => {
 
       <div style={{ display: "grid", placeItems: "center" }}>
         <h1>Videos</h1>
-        <div style={{ paddingBottom: "20px" }}>
+        <div className="iframe-container" style={{ paddingBottom: "20px" }}>
           <iframe
-            width="750"
-            height="500"
+            style={{ width: "100%", height: "100%", position: "absolute" }}
             src="https://www.youtube.com/embed/7DT1KyKvSj8?si=3WXymW0hMP_SENRm"
             title="YouTube video player"
             frameborder="0"
@@ -182,10 +182,9 @@ const PhotoGallery = () => {
             allowfullscreen
           ></iframe>
         </div>
-        <div style={{ paddingBottom: "20px" }}>
+        <div className="iframe-container" style={{ paddingBottom: "20px" }}>
           <iframe
-            width="750"
-            height="500"
+            style={{ width: "100%", height: "100%", position: "absolute" }}
             src="https://www.youtube.com/embed/bWMj-VaVKUo?si=UQgrN7yofq6fS2hm"
             title="YouTube video player"
             frameborder="0"
@@ -199,4 +198,4 @@ const PhotoGallery = () => {
   );
 };
 
-export default PhotoGallery;
+export default Puppies;

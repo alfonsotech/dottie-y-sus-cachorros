@@ -5,12 +5,13 @@ const Adopt = () => {
   return (
     <div>
       <p>
-        Gracias por considerar la adopción sin costo de uno de nuestros
-        cachorros. Si estás interesado en darle un hogar amoroso y responsable a
-        uno de ellos, te invitamos a completar el formulario de adopción en
-        línea. Una vez recibamos tu formulario, nos pondremos en contacto
-        contigo lo antes posible para continuar con el proceso. Los cachorros
-        estaran disponibles apartir de diciembre 15.{" "}
+        Gracias por considerar la adopción de uno de nuestros cachorros. El
+        costo de la adopcion es RD$3,000 para cubrir la desparacion y las
+        primeras vacunas. Si estás interesado en darle un hogar amoroso y
+        responsable a uno de ellos, te invitamos a completar el formulario de
+        adopción en línea. Una vez recibamos tu formulario, nos pondremos en
+        contacto contigo lo antes posible para continuar con el proceso. Los
+        cachorros estaran disponibles apartir de diciembre 15.{" "}
       </p>
       <div className="adoptionForm">
         <form

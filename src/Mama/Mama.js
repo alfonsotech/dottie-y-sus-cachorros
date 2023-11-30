@@ -83,7 +83,7 @@ const Mama = () => {
           <button className="button">ADOPTA A DOTTIE</button>
         </Link>
 
-        <Link to="/gallery" className="button-link">
+        <Link to="/puppies" className="button-link">
           <button className="button">CONOCE A SUS CACHORROS</button>
         </Link>
       </div>

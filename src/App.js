@@ -4,7 +4,7 @@ import ScrollToTop from "./ScrollToTop";
 
 import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
-import PhotoGallery from "./PhotoGallery";
+import Puppies from "./Puppies/Puppies";
 import Adopt from "./Adopt/Adopt";
 import Footer from "./Footer/Footer";
 import PupCare from "./PupCare";
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/dottie-y-sus-cachorros" element={<Home />} />
-        <Route path="/gallery" element={<PhotoGallery />} />
+        <Route path="/puppies" element={<Puppies />} />
         <Route path="/mama" element={<Mama />} />
         <Route path="/adopt" element={<Adopt />} />
         <Route path="/care" element={<PupCare />} />

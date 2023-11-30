@@ -61,7 +61,7 @@ const Navbar = () => {
                   <Link to="/mama">La Mama</Link>
                 </MenuItem>
                 <MenuItem onClick={handleMenuClose}>
-                  <Link to="/gallery">Los Cachorros</Link>
+                  <Link to="/puppies">Los Cachorros</Link>
                 </MenuItem>
                 <MenuItem onClick={handleMenuClose}>
                   <Link to="/adopt">Como Adoptar</Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
               <Link to="/mama" className="menu-link">
                 <Button color="inherit">La Mama</Button>
               </Link>
-              <Link to="/gallery" className="menu-link">
+              <Link to="/puppies" className="menu-link">
                 <Button color="inherit">Los Cachorros</Button>
               </Link>
               <Link to="/adopt" className="menu-link">

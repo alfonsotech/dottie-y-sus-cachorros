@@ -63,7 +63,7 @@ const Home = () => {
           <button className="button">CONOCE A DOTTIE</button>
         </Link>
 
-        <Link to="/gallery" className="button-link">
+        <Link to="/puppies" className="button-link">
           <button className="button">CONOCE A LOS CACHORROS</button>
         </Link>
       </div>
