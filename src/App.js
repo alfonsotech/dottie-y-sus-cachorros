@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
 
 import Navbar from "./Navbar/Navbar";
@@ -23,6 +28,8 @@ function App() {
         <Route path="/mama" element={<Mama />} />
         <Route path="/adopt" element={<Adopt />} />
         <Route path="/care" element={<PupCare />} />
+        {/* Default route for unmatched paths */}
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
     </Router>
